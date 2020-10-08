@@ -1,0 +1,145 @@
+body {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+/*bu bölüm kisisel bilgi icerir*/
+.title {
+    position: relative;
+    margin-left: 250px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+/*tüm basliklar burada*/
+h1 {
+    border: solid;
+    border-radius: 8px;
+    background-color: #c7ec70;
+}
+
+h2 {
+    border: solid;
+    border-radius: 8px;
+    margin-top: 150px;
+    background-color: #c7ec70;
+}
+
+h3 {
+    border: solid;
+    border-radius: 8px;
+    background-color: #c7ec70;
+}
+
+/*paragraf stili burada*/
+#hakkimda {
+    color: darkblue;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+/*egitim tablo stilleri*/
+#egitim {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#egitim td,
+#egitim th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#egitim tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#egitim tr:hover {
+    background-color: #ddd;
+}
+
+#egitim th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #75a776;
+    color: white;
+}
+
+/*is hayati tablosu stili*/
+#profesyonel {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#profesyonel td,
+#profesyonel th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#profesyonel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2c3e50;
+    color: white;
+}
+
+/*cocugum tablosu*/
+#kind th,
+#kind td {
+    border: 1px solid rgb(227, 230, 75);
+    border-radius: 8px;
+    background-color: orange;
+    width: 800px;
+    text-align: center;
+}
+
+/*arkadaslarim tablosu*/
+#friends {
+    border: 1px dashed;
+    background-color: greenyellow;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 900px;
+    text-align: justify;
+}
+
+#friends th {
+    border: 1px solid;
+    background-color: darkgrey;
+}
+
+#friends td {
+    border: 1px solid;
+    background-color: darkgrey;
+}
+
+#hobbys {
+    border: double;
+    background-color: hsl(120, 51%, 89%);
+    color: black;
+    text-align: justify;
+    width: 1200px;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hobbys th {
+    background-color: #e7cd8a;
+}
+
+#hobbys td {
+    border: cadetblue;
+}
+
+#hobbys tr:hover {
+    background-color: #c7ec70;
+}
